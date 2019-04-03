@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     AppDatabase db = App.getInstance().getDatabase();
     EntityDao entityDao = db.entityDao();
     MyEntity myEntity = new MyEntity();
-    
+
     public void fillEmployee() {
         myEntity.id = 1;
         myEntity.name = "First Man";
